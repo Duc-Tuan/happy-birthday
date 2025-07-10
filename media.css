@@ -1,0 +1,57 @@
+@media (max-width: 400px) {
+  .container .boxcontainer {
+    width: 350px !important;
+  }
+  .container .cute1::after {
+    padding: 4px;
+  }
+  .container .box-firework .firework > img {
+    width: 80px;
+  }
+  .boxMail .boxMail-container {
+    width: 400px;
+    height: 300px;
+  }
+  .boxMail .boxMail-container .card1 h3 {
+    font-size: 20px;
+  }
+  .boxMail .boxMail-container .card1 .imageCute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxMail .boxMail-container .card1 .imageCute img {
+    width: 50%;
+  }
+  .boxMail .boxMail-container .card1 {
+    width: 60%;
+  }
+  .boxMail .boxMail-container:hover .card1 {
+    transform: translate(-208px, -248px) rotateY(-140deg);
+    left: 72%;
+    top: 83%;
+  }
+
+  .boxMail .boxMail-container .card2 {
+    width: 60%;
+  }
+  .boxMail .boxMail-container .card2 h2 {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .boxMail .boxMail-container .card2:hover h3 {
+    padding-left: 60px !important;
+    padding-top: 10px !important;
+  }
+  .boxMail .boxMail-container:hover .card2-content {
+    transform: translate(24px, 20px);
+  }
+  @keyframes cute4 {
+    0% {
+      left: 20px;
+    }
+    100% {
+      left: 20px;
+    }
+  }
+}
